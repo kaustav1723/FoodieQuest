@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+.header-title,.nav-link ,.topi,.topic,.abc,.def,.best_subtitle,.cart,.customer_heading{
+    font-family: "Poppins",sans-serif;
+}
+.fea {
+    font-family: "Poppins",sans-serif;
+}

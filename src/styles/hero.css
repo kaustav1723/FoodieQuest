@@ -1,0 +1,35 @@
+.gallery  {
+    width: 1225px;
+    margin-inline: auto;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 70% 30%;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .box {
+    padding: 5px;
+  }
+  
+  #box-1 {
+    border-radius: 5px;
+    background-image: url("../images/vegan.jpg");
+    background-size: cover;
+    height: 80vh;
+    background-color: antiquewhite;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  #box-2 {
+    background-image: url("../images/righ.jpg");
+    background-size: cover;
+    border-radius: 5px;
+  }
+  #box-3 {
+    background-image: url("../images/down.jpg");
+    background-size: cover;
+    border-radius: 5px;
+  }
